@@ -45,7 +45,7 @@ int main() {
         printf("%d\n", get(my_list, i));
     }
     printf("Destroy list: %d\n", destroy(my_list));
-
+    free(my_list);
 
     return 0;
 }
